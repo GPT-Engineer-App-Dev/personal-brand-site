@@ -20,17 +20,17 @@ const Index = () => {
             Full Stack Developer
           </Text>
         </Box>
-        <Text fontSize="md" textAlign="center" maxW="lg">
+        <Text fontSize="md" textAlign="center" maxW="lg" color="gray.700">
           Passionate about building scalable web applications and always eager to learn new technologies. Let's connect and create something amazing together!
         </Text>
         <HStack spacing={4}>
-          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="teal" variant="outline">
+          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="gray" variant="outline">
             GitHub
           </Button>
-          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="teal" variant="outline">
+          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="gray" variant="outline">
             LinkedIn
           </Button>
-          <Button as="a" href="https://twitter.com" target="_blank" leftIcon={<FaTwitter />} colorScheme="teal" variant="outline">
+          <Button as="a" href="https://twitter.com" target="_blank" leftIcon={<FaTwitter />} colorScheme="gray" variant="outline">
             Twitter
           </Button>
         </HStack>
